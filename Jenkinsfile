@@ -5,10 +5,12 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 script {
+                    sh 'rm -rf PES1UG22CS370_Jenkins' // Remove existing directory
                     sh 'git clone https://github.com/namanbachhawat/PES1UG22CS370_Jenkins.git'
                 }
             }
         }
+
         
         stage('Build') {
             steps {
