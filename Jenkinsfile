@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o PES1UG22CS370-1 https://github.com/namanbachhawat/PES1UG22CS370_Jenkins/working.cpp'
+                    sh 'g++ -o PES1UG22CS370-1 PES1UG22CS370_Jenkins/working.cpp'
                 }
             }
         }
