@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 script {
-                    sh 'git clone https://github.com/namanbachhawat/PES1UG22CS370_Jenkins'
+                    sh 'git clone https://github.com/namanbachhawat/PES1UG22CS370_Jenkins.git'
                 }
             }
         }
